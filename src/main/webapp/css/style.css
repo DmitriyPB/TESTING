@@ -1,0 +1,49 @@
+.main {
+    padding: 10px;
+}
+
+.list {
+    border: none;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.list__title {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.list__bio {
+    display: flex;
+    align-items: center;
+}
+
+.list__time {
+    font-size: 0.6em;
+    font-style: italic;
+}
+
+.bio__image {
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.bio__name {
+    padding-left: 10px;
+    font-size: 0.8em;
+}
+
+tr.not-answered {
+    background: #dac8c8;
+}
+
+td {
+    border: none;
+}
+
+table {
+    border: 1px solid #CCC;
+    border-collapse: collapse;
+}
